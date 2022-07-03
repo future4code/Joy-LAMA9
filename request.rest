@@ -1,0 +1,21 @@
+
+POST http://localhost:3000/user/signup
+Content-Type: application/json
+
+{
+   "email": "junio@gmail.com",
+   "name": "Junio",
+   "password": "012345690",
+   "role": "admin"
+}
+
+### EXEMPLO DE REQUISIÇÃO COM AUTHENTICATION E BODY
+
+//PUT http://localhost:3000/link
+//Content-Type: application/json
+//Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA2ZGYxNGQwLWQ4MDctNDFkNi1hYWZhLWUzNjJkNmQ2NjBiNSIsImlhdCI6MTY1NTI1ODIzNSwiZXhwIjoxNjU1MjY1NDM1fQ.HY84mVx0dkGCkh6NtT-7hu8fz4pS0Heq6m-Mg-c3egU
+
+// {
+//    "name": "teste",
+//    "nickname": "teste"
+// }
