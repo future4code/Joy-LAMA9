@@ -24,6 +24,7 @@ export class UserBusiness {
     }
 
     async getUserByEmail(user: LoginInputDTO) {
+        console.log("procurando user", user)
 
         const userDatabase = new UserDatabase();
         const userFromDB = await userDatabase.getUserByEmail(user.email);

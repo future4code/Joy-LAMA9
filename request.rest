@@ -3,10 +3,19 @@ POST http://localhost:3000/user/signup
 Content-Type: application/json
 
 {
-   "email": "junio@gmail.com",
-   "name": "Junio",
+   "email": "teste@gmail.com",
+   "name": "teste",
    "password": "012345690",
    "role": "admin"
+}
+
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+
+{
+   "email": "junio@gmail.com",
+   "password": "012345690"
 }
 
 ### EXEMPLO DE REQUISIÇÃO COM AUTHENTICATION E BODY
